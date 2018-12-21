@@ -1,0 +1,40 @@
+{
+    "name": "Nerialdo/laravel-boleto",
+    "description": "Biblioteca com boletos para o laravel",
+    "keywords": [
+        "Nerialdo",
+        "laravel-boleto"
+    ],
+    "homepage": "https://github.com/Nerialdo/boleto-laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nerialdo Ferreira",
+            "email": "nerialdomoreira@hotmail.com.br"
+        }
+    ],
+    "require": {
+        "php" : ">=5.5.0",
+        "ext-intl": "*",
+        "ext-mbstring": "*",
+        "itbz/fpdf": "^1.7",
+        "nesbot/carbon": "1.*",
+        "illuminate/contracts": "~5.1",
+        "illuminate/support": "~5.1",
+        "neitanod/forceutf8": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0",
+        "orchestra/testbench": "3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Eduardokum\\LaravelBoleto\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Eduardokum\\LaravelBoleto\\Tests\\": "tests"
+        }
+    }
+}
