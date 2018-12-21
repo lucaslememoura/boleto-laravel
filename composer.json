@@ -1,11 +1,11 @@
 {
-    "name": "Nerialdo/laravel-boleto",
+    "name": "nerialdo/laravel-boleto",
     "description": "Biblioteca com boletos para o laravel",
     "keywords": [
-        "Nerialdo",
+        "nerialdo",
         "laravel-boleto"
     ],
-    "homepage": "https://github.com/Nerialdo/boleto-laravel",
+    "homepage": "https://github.com/nerialdo/boleto-laravel",
     "license": "MIT",
     "authors": [
         {
@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Eduardokum\\LaravelBoleto\\": "src"
+            "nerialdo\\LaravelBoleto\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Eduardokum\\LaravelBoleto\\Tests\\": "tests"
+            "nerialdo\\LaravelBoleto\\Tests\\": "tests"
         }
     }
 }
